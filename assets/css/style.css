@@ -1,3 +1,5 @@
+/* All css styling */
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -10,7 +12,6 @@ textarea{
   resize: none;
   color: #000000;
   border-left: 1px solid black;
-  padding: 10px;
 }
 
 .jumbotron {
@@ -33,13 +34,21 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  border-right: 1px solid black;
+}
+
+.hour p {
+  float: right;
+  margin: 0 auto;
+  padding-top: 1.5vw;
+  font-weight: bold;
 }
 
 .past {
@@ -69,3 +78,23 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.text-content {
+  color: #000000;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+button img {
+  align-items: center;
+  float: left;
+}
+
+.container {
+  margin-bottom: 5vw;
+  margin-top: 5vw;
+}
+
+
+
+

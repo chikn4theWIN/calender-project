@@ -1,38 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Start of the head -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
-
+<!-- End of the head-->
+<!-- Start of the body -->
   <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
+  <!-- Start of the header -->
+    <header class="jumbotron bg-success-gradient ">
+      <h1 class="display-3 font-weight-bold pb-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <div id="currentDay" class="text-black lead pt-3"><div>
     </header>
+  <!-- End of the header -->
+  <!-- Start of the calender container -->
     <div class="container">
-      <!-- Timeblocks go here -->
-    </div>
+      <!-- Div for each hour -->
+        <div id="hour9" class="row hours col-12">
+          <div class="col-2 hour"><p>9am</p></div>
+          <input id="textarea" class="text-content col-9"></input>
+          <button class="saveBtn col-1"><img src="./assets/images/save (1).svg"></button>
+        </div>
 
+        <div id="hour10" class="row hours col-12">
+          <div class="col-2 hour"><p>10am</p></div>
+          <input id="textarea" class="text-content col-9"></input>
+          <button class="saveBtn col-1"><img src="./assets/images/save (1).svg"></button>
+        </div>
+
+        <div id="hour11" class="row hours col-12">
+          <div class="col-2 hour"><p>11am</p></div>
+          <input id="textarea" class="text-content col-9"></input>
+          <button class="saveBtn col-1"><img src="./assets/images/save (1).svg"></button>
+        </div>
+
+        <div id="hour12" class="row hours col-12">
+          <div class="col-2 hour"><p>12pm</p></div>
+          <input id="textarea" class="text-content col-9"></input>
+          <button class="saveBtn col-1"><img src="./assets/images/save (1).svg"></button>
+        </div>
+
+        <div id="hour13" class="row hours col-12">
+          <div class="col-2 hour"><p>1pm</p></div>
+          <input id="textarea" class="text-content col-9"></input>
+          <button class="saveBtn col-1"><img src="./assets/images/save (1).svg"></button>
+        </div>
+
+        <div id="hour14" class="row hours col-12">
+          <div class="col-2 hour"><p>2pm</p></div>
+          <input id="textarea" class="text-content col-9"></input>
+          <button class="saveBtn col-1"><img src="./assets/images/save (1).svg"></button>
+        </div>
+
+        <div id="hour15" class="row hours col-12">
+          <div class="col-2 hour"><p>3pm</p></div>
+          <input id="textarea" class="text-content col-9"></input>
+          <button class="saveBtn col-1"><img src="./assets/images/save (1).svg"></button>
+        </div>
+
+        <div id="hour16" class="row hours col-12">
+          <div class="col-2 hour"><p>4pm</p></div>
+          <input id="textarea" class="text-content col-9"></input>
+          <button class="saveBtn col-1"><img src="./assets/images/save (1).svg"></button>
+        </div>
+
+        <div id="hour17" class="row hours col-12">
+          <div class="col-2 hour"><p>5pm</p></div>
+          <input id="textarea" class="text-content col-9"></input>
+          <button class="saveBtn col-1"><img src="./assets/images/save (1).svg"></button>
+        </div>
+    </div>
+  <!-- End of the calender container div -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
+<!-- End of body -->
 </html>
+<!-- End of the page :)-->
